@@ -1,0 +1,60 @@
+.heading {
+    color: white;
+    font-size: 9vw;
+    padding: 3%;
+}
+.row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.heading:hover {
+    color: rgb(236, 49, 43);
+    padding: 3%;
+}
+
+#inp {
+    color: rgb(13, 14, 63);
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+#inp:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#convert {
+
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(2, 17, 20);
+    color: white;
+    padding: 9px;
+
+}
+
+#convert:hover {
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+}
+
+.block {
+    padding: 4% 4%;
+   width: fit-content;
+   border: 1px solid white;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?black,dark');
+    background-blend-mode: overlay;
+    background-color: rgba(0.5, 0.5, 0.5, .34);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+#msg{
+    color: yellow;
+    font-size: x-large;
+}
